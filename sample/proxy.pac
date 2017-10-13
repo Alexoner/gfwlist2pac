@@ -2,6 +2,10 @@
 // https://github.com/clowwindy/gfwlist2pac
 
 var domains = {
+  "medium.com": 1,
+  "xmarks.com": 1, 
+  "www.w3schools.com": 1,
+  "googleapis.com": 1,
   "gimpshop.com": 1, 
   "directcreative.com": 1, 
   "speedpluss.org": 1, 
@@ -2586,14 +2590,14 @@ var proxy = "SOCKS5 127.0.0.1:1080;SOCKS 127.0.0.1:1080;DIRECT;";
 var direct = 'DIRECT;';
 
 function FindProxyForURL(url, host) {
-    var lastPos = 0;
+    var beginPos = 0;
     var domain = host;
-    while(lastPos >= 0) {
+    while(beginPos >= 0) {
         if (domains[domain]) {
             return proxy;
         }
-        lastPos = host.indexOf('.', lastPos + 1);
-        domain = host.slice(lastPos + 1);
+        beginPos = host.indexOf('.', beginPos + 1);
+        domain = host.slice(beginPos + 1);
     }
     return direct;
 }
