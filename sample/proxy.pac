@@ -2,6 +2,9 @@
 // https://github.com/clowwindy/gfwlist2pac
 
 var domains = {
+  // websites blocked by company network:
+  "upload-vdisk.sina.com.cn": 1,
+
   "medium.com": 1,
   "xmarks.com": 1, 
   "www.w3schools.com": 1,
