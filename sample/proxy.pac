@@ -6,6 +6,7 @@ var domains = {
   "xmarks.com": 1, 
   "www.w3schools.com": 1,
   "googleapis.com": 1,
+  "firebaseio.com": 1,
   "gimpshop.com": 1, 
   "directcreative.com": 1, 
   "speedpluss.org": 1, 
