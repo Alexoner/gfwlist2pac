@@ -7,6 +7,7 @@ var domains = {
   "www.w3schools.com": 1,
   "googleapis.com": 1,
   "hrcdn.com": 1,
+  "cloudfront.net": 1,
   "firebaseio.com": 1,
   "gimpshop.com": 1, 
   "directcreative.com": 1, 
