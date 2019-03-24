@@ -4,6 +4,7 @@
 var domains = {
   "medium.com": 1,
   "xmarks.com": 1, 
+  "tumblr.com": 1,
   "www.w3schools.com": 1,
   "googleapis.com": 1,
   "hrcdn.com": 1,
