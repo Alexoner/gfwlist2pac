@@ -2,6 +2,7 @@
 // https://github.com/clowwindy/gfwlist2pac
 
 var domains = {
+  "quora.com": 1,
   "quoracdn.net": 1,
   "medium.com": 1,
   "xmarks.com": 1, 
