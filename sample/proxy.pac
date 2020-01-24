@@ -5,6 +5,8 @@ var domains = {
   "quora.com": 1,
   "quoracdn.net": 1,
   "medium.com": 1,
+  "sstatic.net": 1,
+  "imgur.com": 1,
   "xmarks.com": 1, 
   "tumblr.com": 1,
   "www.w3schools.com": 1,
