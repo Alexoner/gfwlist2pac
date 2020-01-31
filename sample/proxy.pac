@@ -1749,6 +1749,7 @@ var domains = {
   "bit.ly": 1, 
   "makzhou.warehouse333.com": 1, 
   "pornhub.com": 1, 
+  "phncdn.com": 1,
   "share.ovi.com": 1, 
   "mihua.org": 1, 
   "ck101.com": 1, 
